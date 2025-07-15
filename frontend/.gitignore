@@ -1,0 +1,16 @@
+# Frontend .gitignore
+
+# Vite-specific
+.vite/
+
+# Build output
+dist/
+
+# Node modules (redundant if root .gitignore covers, but good for standalone)
+node_modules
+
+# Logs
+*.log
+
+# Coverage
+coverage/

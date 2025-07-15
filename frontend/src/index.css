@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Extend theme properties using the @theme directive */
+@theme {
+  /* Primary (Indigo) */
+  --color-primary-50: #eff6ff;
+  --color-primary-100: #dbeafe;
+  --color-primary-200: #bfdbfe;
+  --color-primary-300: #93c5fd;
+  --color-primary-400: #60a5fa;
+  --color-primary-500: #4F46E5; /* main */
+  --color-primary-600: #4338ca;
+  --color-primary-700: #3730a3;
+  --color-primary-800: #312e81;
+  --color-primary-900: #1e1b4b;
+  --color-primary-950: #0c0a24;
+
+  /* Secondary Accent (Teal) */
+  --color-accent-50: #f0fdfa;
+  --color-accent-100: #ccfbf1;
+  --color-accent-200: #99f6e4;
+  --color-accent-300: #5eead4;
+  --color-accent-400: #2dd4bf;
+  --color-accent-500: #14B8A6; /* main */
+  --color-accent-600: #0d9488;
+  --color-accent-700: #0f766e;
+  --color-accent-800: #115e59;
+  --color-accent-900: #134e4a;
+  --color-accent-950: #042f2e;
+
+  /* Backgrounds */
+  --color-bg-light: #F9FAFB; /* gray-50 */
+  --color-bg-soft: #F3F4F6;  /* gray-100 */
+
+  /* Text colors */
+  --color-text-primary: #111827;  /* gray-900 */
+  --color-text-secondary: #6B7280; /* gray-500 */
+  --color-text-muted: #4B5563;     /* gray-600 */
+
+  /* Semantic colors */
+  --color-success-500: #22C55E;
+  --color-warning-500: #FBBF24;
+  --color-error-500: #EF4444;
+
+  /* Fonts */
+  --font-body: 'Mangal', 'Arial', 'sans-serif';
+}

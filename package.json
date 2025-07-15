@@ -1,0 +1,20 @@
+{
+  "name": "vibecoadinghackathon-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "install:all": "npm install",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "build:frontend": "npm run build --workspace=frontend",
+    "lint:frontend": "npm run lint --workspace=frontend",
+    "test:frontend": "npm run test --workspace=frontend",
+    "dev:backend": "npm run dev --workspace=backend",
+    "build:backend": "npm run build --workspace=backend",
+    "lint:backend": "npm run lint --workspace=backend",
+    "test:backend": "npm run test --workspace=backend"
+  }
+}
