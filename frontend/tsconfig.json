@@ -5,6 +5,13 @@
     { "path": "./tsconfig.node.json" }
   ],
   "compilerOptions": {
-    "types": ["vitest/globals"]
+    "lib": ["DOM", "ES2022"],
+    "jsx": "react-jsx",
+    "types": [
+      "vitest/globals",
+      "vitest/import-meta",
+      "@testing-library/jest-dom/vitest",
+      "@testing-library/react"
+    ]
   }
 }

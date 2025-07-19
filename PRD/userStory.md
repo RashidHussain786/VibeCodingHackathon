@@ -2,7 +2,7 @@
 
 Here's a more detailed breakdown of the high-level user stories from our PRD (Section 2.2):
 
-#### **Epic 1: Find a Mentor based on Skill/Topic**
+#### **Epic 1: Find a Mentor based on Skill/Topic - COMPLETE**
 
 *   **As an employee, I want to search for mentors based on specific skills or general topics, so that I can connect with someone who can guide my learning or career.**
     
@@ -45,7 +45,7 @@ Here's a more detailed breakdown of the high-level user stories from our PRD (Se
     *   **Resource Categories:** Learning resources could be categorized (e.g., "Courses," "Articles," "Videos," "Internal Docs").
         
 
-#### **Epic 4: Express Learning Interests (Part of User Profile)**
+#### **Epic 4: Express Learning Interests (Part of User Profile) - COMPLETE**
 
 *   **As an employee, I want to easily update my profile with skills I want to learn or areas I need guidance in, so that the system can better match me with mentors and resources.**
     
@@ -56,7 +56,7 @@ Here's a more detailed breakdown of the high-level user stories from our PRD (Se
     *   **Impact on Matching:** These interests directly influence the recommendations from "Discover Learning Resources" (Epic 3) and help the system match potential mentors from "Find a Mentor" (Epic 1).
         
 
-#### **Epic 5: Offer Mentorship & Expertise (Part of User Profile)**
+#### **Epic 5: Offer Mentorship & Expertise (Part of User Profile) - COMPLETE**
 
 *   **As an employee, I want to update my profile to indicate my areas of expertise and willingness to mentor or answer questions, so that I can contribute to the growth of others and be easily found by those seeking help.**
     

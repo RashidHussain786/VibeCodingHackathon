@@ -21,7 +21,13 @@
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+    "types": [
+      "vitest/globals",
+      "vitest/import-meta",
+      "@testing-library/jest-dom/vitest",
+      "@testing-library/react"
+    ]
   },
   "include": ["src"]
 }
