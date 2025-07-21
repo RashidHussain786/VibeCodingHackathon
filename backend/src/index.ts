@@ -15,7 +15,10 @@ app.get('/', (req, res) => {
 
 app.put('/api/users/:userId/learning-interests', userController.updateLearningInterests);
 app.put('/api/users/:userId/profile', userController.updateProfile);
+import { knowledgeRouter } from './routes/knowledgeRoutes';
+
 app.get('/api/mentors/search', searchMentors);
+app.use('/api/knowledge', knowledgeRouter);
 
 // Only start the server if this file is run directly (not imported for testing)
 if (require.main === module) {
