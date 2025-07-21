@@ -54,4 +54,14 @@ export const searchMentors = async (skill?: string) => {
   }
 };
 
+export const askQuestion = async (question: string) => {
+  try {
+    const response = await api.post("/api/qa", { question });
+    return response.data;
+  } catch (error) {
+    console.error("Error asking question:", error);
+    throw error;
+  }
+};
+
 // You can add other API functions here
